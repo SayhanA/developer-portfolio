@@ -205,68 +205,124 @@ main{
     color: #757575;
 }
 
-/* Resume Styles */
-.resume {
+
+/* Resume starts here */
+.resume{
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     align-items: center;
 }
-.resume-content{
-    display: flex;
-    gap: 25px;
-}
 .section-title{
-    margin-bottom: 113px;
-    width: 700;
-    size: 35px;
+    font-size: 35px;
+    font-weight: 700;
     line-height: 47.66px;
+    color: #181818;
     text-align: center;
 }
 .resume-content{
     display: flex;
     flex-flow: row nowrap;
+    gap: 25px;
 }
-.my-education ul li h3{
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 40.85px;
+.my-education>ul>li>h3{
     color: #474747;
-    margin-bottom:30px ;
-}
-.my-education>ul{
-    border-bottom: 1px solid #D1D1D1;
-}
-.sesume-ser h4{
-    font-size: 25px;
     font-weight: 700;
-    line-height: 34.05px;
+    font-size: 25px;
+    line-height: 41px;
+    margin-bottom: 30px;
+}
+.sesume-ser>li>h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
     color: #474747;
     margin-bottom: 10px;
-    margin-top: 30px;
+
 }
 .resume-year{
-    color: #757575;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 27.24px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #757575;
     margin-bottom: 20px;
 }
-.sesume-ser{
-    color: #757575;
+.sesume-ser:last-child{
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    padding-bottom: 30px;
+    color: #757575;
     padding-right: 50px;
 }
-.my-education>ul:last-child{
-    /* background-color: red; */
-    border-bottom: 0px;
-    margin-bottom: 50px;
+.sesume-ser>hr{
+    margin: 30px 0;
 }
-.resume .btn-primary{
+.download-btn{
+    margin: 50px 0 130px 0;
+}
+
+/* contact */
+main>.contact{
+    width: 1600px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.contact{
+    height: 780px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+    margin: 0;
+    position: relative;
+    left: -275px;
+}
+.contact-connect{
+    padding-left: 230px;
+}
+.contact-connect>h3{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin: 130px 50px 20px 0;
+}
+.contact-connect>p{
+    color: #474747;
+    margin-bottom: 30px;
+    width: 400px;
+    padding-right: 50px;
+}
+.contact-connect>ul{
+    display: flex;
+}
+.contact-massage{
+    padding-right: 230px;
+}
+.contact-massage>h3{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin: 130px 50px 28px 0;
+}
+.Massage{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:flex-start;
+    
+}
+#name,#email{
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px ;
+    border: 0;
+    border-radius: 5px;
+    padding:0 20px;
+    margin-bottom: 25px;
+}
+#textarea{
+    width: 461px;
+    height: 180px;
+    border: 0;
+    padding:20px 20px;
+    margin-bottom: 24px;
 }
