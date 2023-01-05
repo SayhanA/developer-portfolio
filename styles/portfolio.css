@@ -206,12 +206,14 @@ main{
 }
 
 /* Resume Styles */
-.resume{
-
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .resume-content{
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 .section-title{
     margin-bottom: 113px;
@@ -231,7 +233,7 @@ main{
     color: #474747;
     margin-bottom:30px ;
 }
-.my-education ul{
+.my-education>ul{
     border-bottom: 1px solid #D1D1D1;
 }
 .sesume-ser h4{
@@ -255,5 +257,16 @@ main{
     font-size: 16px;
     line-height: 28px;
     padding-bottom: 30px;
+    padding-right: 50px;
 }
-
+.my-education>ul:last-child{
+    /* background-color: red; */
+    border-bottom: 0px;
+    margin-bottom: 50px;
+}
+.resume .btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
