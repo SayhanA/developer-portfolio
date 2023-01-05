@@ -5,7 +5,9 @@
     font-family: 'Open Sans', sans-serif;
     list-style: none;
 }
-
+section{
+    margin-top: 131px;
+}
 /* header and navigation styles */
 header{
     width: 1600px;
@@ -141,5 +143,117 @@ main{
     color: #474747;
     font-size: 20px;
     font-weight: 700;
-    
+
 }
+
+
+/* What I Do styles */
+.what-i-do{
+    margin-top: 131px;
+    /* padding: 130px 156px; */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items:center;
+    /* background: #FFF8F3; */
+}
+.section-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47.66px;
+    padding-bottom: 30px;
+}
+.section-description{
+    width: 909px;
+    height: 90px;
+    color: #757575;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.skills-container{
+    width: 1140px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    gap: 34.5;
+}
+.skill{
+    /* width: 256px; */
+    /* height: 377px; */
+    border-radius: 5px;
+    /* border: 1px solid; */
+    padding:30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.047),
+                -10px -10px 20px rgba(0, 0, 0, 0.041);
+}
+.skill>img{
+    width: 44px;
+    height: 44px;
+    padding-bottom: 30px;
+}
+.skill-title{
+    padding-bottom: 20px;
+    width: 174px;
+    font-size: 20px;
+    line-height: 27.24px;
+    font-weight: 700;
+}
+.skill-description{
+    width: 201px;
+    height: 196px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* Resume Styles */
+.resume{
+
+}
+.resume-content{
+    display: flex;
+    gap: 20px;
+}
+.section-title{
+    margin-bottom: 113px;
+    width: 700;
+    size: 35px;
+    line-height: 47.66px;
+    text-align: center;
+}
+.resume-content{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.my-education ul li h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40.85px;
+    color: #474747;
+    margin-bottom:30px ;
+}
+.my-education ul{
+    border-bottom: 1px solid #D1D1D1;
+}
+.sesume-ser h4{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34.05px;
+    color: #474747;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.resume-year{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.24px;
+    margin-bottom: 20px;
+}
+.sesume-ser{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 30px;
+}
+
